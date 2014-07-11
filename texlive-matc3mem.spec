@@ -6,7 +6,7 @@
 # catalog-version 1.0.2
 Name:		texlive-matc3mem
 Version:	1.0.2
-Release:	6
+Release:	7
 Summary:	Class for MatematicaC3 textbooks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
