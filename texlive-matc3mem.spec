@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.0.2
 Name:		texlive-matc3mem
-Version:	1.0.2
-Release:	9
+Version:	1.1
+Release:	1
 Summary:	Class for MatematicaC3 textbooks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
