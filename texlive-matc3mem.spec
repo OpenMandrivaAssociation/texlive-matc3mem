@@ -1,19 +1,13 @@
-# revision 29894
-# category Package
-# catalog-ctan /macros/latex/contrib/matc3mem
-# catalog-date 2013-04-14 10:19:50 +0200
-# catalog-license lppl1.3
-# catalog-version 1.0.2
 Name:		texlive-matc3mem
-Version:	1.1
-Release:	2
+Version:	35773
+Release:	1
 Summary:	Class for MatematicaC3 textbooks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ for writing the books for the Matematica C3 project to produce
 free mathematical textbooks for use in Italian high schools.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -45,7 +39,8 @@ free mathematical textbooks for use in Italian high schools.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
