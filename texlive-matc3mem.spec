@@ -1,6 +1,6 @@
 Name:		texlive-matc3mem
 Version:	35773
-Release:	1
+Release:	2
 Summary:	Class for MatematicaC3 textbooks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
