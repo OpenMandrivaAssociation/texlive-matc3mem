@@ -3,7 +3,7 @@ Version:	35773
 Release:	2
 Summary:	Class for MatematicaC3 textbooks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/matc3mem
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/matc3mem.doc.r%{version}.tar.xz
